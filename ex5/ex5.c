@@ -10,11 +10,9 @@ int main(){
         idadeg = idadeg + idade;
         p++;
     }
-    printf("%d\n", idadeg);
-    printf("%d\n", p);
     media = idadeg/p;
     if(idade==0){
-        printf("a media das idades das pessoas é: %f\n", media);    
+        printf("a media das idades das pessoas é: %.2f\n", media);    
         return 0;
     }
 }
